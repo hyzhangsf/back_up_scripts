@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-03-10T20:35:07.539Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="71SWLVTK8SmWmrqNrJCl" version="23.1.4" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2024-03-10T20:38:46.377Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="FQ6DyKVXkJni3UazVDuQ" version="23.1.4" type="github" pages="2">
   <diagram name="Communication Channels Between 3 Components" id="nnoKSU5elDV7BOvncyM5">
-    <mxGraphModel dx="879" dy="581" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="819" dy="541" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -99,7 +99,7 @@
           <mxGeometry x="560" y="560" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="5Q9it6vGgMXhBC5p38Wy-17" value="Device" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="390" y="370" width="60" height="30" as="geometry" />
+          <mxGeometry x="390" y="400" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
