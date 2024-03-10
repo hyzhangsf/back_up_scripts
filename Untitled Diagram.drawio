@@ -1,44 +1,105 @@
-<mxfile host="app.diagrams.net" modified="2024-03-10T20:27:35.171Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="U_kU1gGHoSNGaLQ7eFiv" version="23.1.4" type="github">
-  <diagram name="Page-1" id="nnoKSU5elDV7BOvncyM5">
+<mxfile host="app.diagrams.net" modified="2024-03-10T20:35:07.539Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="71SWLVTK8SmWmrqNrJCl" version="23.1.4" type="github" pages="2">
+  <diagram name="Communication Channels Between 3 Components" id="nnoKSU5elDV7BOvncyM5">
     <mxGraphModel dx="879" dy="581" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="rska8mH-34ltOQw2Erae-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=4;startArrow=classic;startFill=1;" edge="1" parent="1" source="rska8mH-34ltOQw2Erae-2" target="rska8mH-34ltOQw2Erae-4">
+        <mxCell id="rska8mH-34ltOQw2Erae-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=4;startArrow=classic;startFill=1;" parent="1" source="rska8mH-34ltOQw2Erae-2" target="rska8mH-34ltOQw2Erae-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="rska8mH-34ltOQw2Erae-10" value="&amp;nbsp;HTTPS&lt;br style=&quot;font-size: 15px;&quot;&gt;Assumed to be Secure" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=15;labelBorderColor=none;" vertex="1" connectable="0" parent="rska8mH-34ltOQw2Erae-7">
+        <mxCell id="rska8mH-34ltOQw2Erae-10" value="&amp;nbsp;HTTPS&lt;br style=&quot;font-size: 15px;&quot;&gt;Assumed to be Secure" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=15;labelBorderColor=none;" parent="rska8mH-34ltOQw2Erae-7" vertex="1" connectable="0">
           <mxGeometry x="0.2256" y="-3" relative="1" as="geometry">
             <mxPoint x="3" y="11" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="rska8mH-34ltOQw2Erae-2" value="Backend" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="rska8mH-34ltOQw2Erae-2" value="Backend" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="360" y="160" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="rska8mH-34ltOQw2Erae-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=4;startArrow=classic;startFill=1;" edge="1" parent="1" source="rska8mH-34ltOQw2Erae-3" target="rska8mH-34ltOQw2Erae-2">
+        <mxCell id="rska8mH-34ltOQw2Erae-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=4;startArrow=classic;startFill=1;" parent="1" source="rska8mH-34ltOQw2Erae-3" target="rska8mH-34ltOQw2Erae-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="rska8mH-34ltOQw2Erae-9" value="HTTPS&lt;br style=&quot;font-size: 15px;&quot;&gt;Assumed to be Secure" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=15;labelBorderColor=none;" vertex="1" connectable="0" parent="rska8mH-34ltOQw2Erae-6">
+        <mxCell id="rska8mH-34ltOQw2Erae-9" value="HTTPS&lt;br style=&quot;font-size: 15px;&quot;&gt;Assumed to be Secure" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=15;labelBorderColor=none;" parent="rska8mH-34ltOQw2Erae-6" vertex="1" connectable="0">
           <mxGeometry x="-0.1897" y="1" relative="1" as="geometry">
             <mxPoint x="1" y="18" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="rska8mH-34ltOQw2Erae-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=3;fillColor=#fff2cc;strokeColor=#d6b656;" edge="1" parent="1" source="rska8mH-34ltOQw2Erae-3" target="rska8mH-34ltOQw2Erae-4">
+        <mxCell id="rska8mH-34ltOQw2Erae-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=3;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" source="rska8mH-34ltOQw2Erae-3" target="rska8mH-34ltOQw2Erae-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="rska8mH-34ltOQw2Erae-11" value="Redirect via deep Link&lt;br style=&quot;font-size: 15px;&quot;&gt;&lt;font color=&quot;#ff6666&quot;&gt;Not Secure&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=15;labelBorderColor=none;" vertex="1" connectable="0" parent="rska8mH-34ltOQw2Erae-8">
+        <mxCell id="rska8mH-34ltOQw2Erae-11" value="Redirect via deep Link&lt;br style=&quot;font-size: 15px;&quot;&gt;&lt;font color=&quot;#ff6666&quot;&gt;Not Secure&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=15;labelBorderColor=none;" parent="rska8mH-34ltOQw2Erae-8" vertex="1" connectable="0">
           <mxGeometry x="-0.1714" y="2" relative="1" as="geometry">
             <mxPoint x="29" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="rska8mH-34ltOQw2Erae-3" value="Frontend" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="rska8mH-34ltOQw2Erae-3" value="Frontend" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="160" y="440" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="rska8mH-34ltOQw2Erae-4" value="Client App" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="rska8mH-34ltOQw2Erae-4" value="Client App" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="560" y="440" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="rska8mH-34ltOQw2Erae-12" value="Communication Channels Between 3 Components" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=17;" vertex="1" parent="1">
+        <mxCell id="rska8mH-34ltOQw2Erae-12" value="Communication Channels Between 3 Components" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=17;" parent="1" vertex="1">
           <mxGeometry x="225" y="100" width="400" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="jJ-SaXSjdAjkRgCQ0a47" name="Malicious App on Device">
+    <mxGraphModel dx="1187" dy="785" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="5Q9it6vGgMXhBC5p38Wy-11" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;dashed=1;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="145" y="400" width="550" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="5Q9it6vGgMXhBC5p38Wy-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=4;startArrow=classic;startFill=1;" edge="1" parent="1" source="5Q9it6vGgMXhBC5p38Wy-3" target="5Q9it6vGgMXhBC5p38Wy-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5Q9it6vGgMXhBC5p38Wy-2" value="&amp;nbsp;HTTPS&lt;br style=&quot;font-size: 15px;&quot;&gt;Assumed to be Secure" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=15;labelBorderColor=none;" vertex="1" connectable="0" parent="5Q9it6vGgMXhBC5p38Wy-1">
+          <mxGeometry x="0.2256" y="-3" relative="1" as="geometry">
+            <mxPoint x="3" y="11" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5Q9it6vGgMXhBC5p38Wy-3" value="Backend" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5Q9it6vGgMXhBC5p38Wy-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=4;startArrow=classic;startFill=1;" edge="1" parent="1" source="5Q9it6vGgMXhBC5p38Wy-8" target="5Q9it6vGgMXhBC5p38Wy-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5Q9it6vGgMXhBC5p38Wy-5" value="HTTPS&lt;br style=&quot;font-size: 15px;&quot;&gt;Assumed to be Secure" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=15;labelBorderColor=none;" vertex="1" connectable="0" parent="5Q9it6vGgMXhBC5p38Wy-4">
+          <mxGeometry x="-0.1897" y="1" relative="1" as="geometry">
+            <mxPoint x="1" y="18" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5Q9it6vGgMXhBC5p38Wy-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=3;fillColor=#fff2cc;strokeColor=#d6b656;" edge="1" parent="1" source="5Q9it6vGgMXhBC5p38Wy-8" target="5Q9it6vGgMXhBC5p38Wy-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5Q9it6vGgMXhBC5p38Wy-7" value="Pass info by redirecting to&amp;nbsp;&lt;br&gt;an app deep Link&lt;br style=&quot;font-size: 15px;&quot;&gt;&lt;font color=&quot;#ff6666&quot;&gt;Not Secure&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=15;labelBorderColor=none;" vertex="1" connectable="0" parent="5Q9it6vGgMXhBC5p38Wy-6">
+          <mxGeometry x="-0.1714" y="2" relative="1" as="geometry">
+            <mxPoint x="29" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5Q9it6vGgMXhBC5p38Wy-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#f8cecc;strokeColor=#b85450;strokeWidth=3;" edge="1" parent="1" source="5Q9it6vGgMXhBC5p38Wy-8" target="5Q9it6vGgMXhBC5p38Wy-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5Q9it6vGgMXhBC5p38Wy-16" value="If Malicious App also register the &lt;br&gt;same deep link schema, the redirection&lt;br&gt;&amp;nbsp;can land on malicious app. So any&lt;br&gt;&amp;nbsp;info passed via deep link redirection should &lt;br&gt;not be sensitive/secretive." style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="5Q9it6vGgMXhBC5p38Wy-14">
+          <mxGeometry x="0.0186" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5Q9it6vGgMXhBC5p38Wy-8" value="Frontend" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5Q9it6vGgMXhBC5p38Wy-9" value="Client App" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5Q9it6vGgMXhBC5p38Wy-10" value="URL Scheme Hijacking on Device" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="280" y="120" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5Q9it6vGgMXhBC5p38Wy-12" value="Malicious App" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="560" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5Q9it6vGgMXhBC5p38Wy-17" value="Device" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="390" y="370" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
