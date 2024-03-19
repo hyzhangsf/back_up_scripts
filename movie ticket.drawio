@@ -1,0 +1,86 @@
+<mxfile host="app.diagrams.net" modified="2024-03-19T23:36:04.934Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="DKaH6uaVjh5KXFd5FXMw" version="24.0.5" type="github">
+  <diagram name="Page-1" id="iJhGpTKCCtmDLhGAIxk6">
+    <mxGraphModel dx="1082" dy="721" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="IHZGzU6U-dfC5qLPPxER-3" value="Movie Theater" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="10" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IHZGzU6U-dfC5qLPPxER-4" value="Alice" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="400" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IHZGzU6U-dfC5qLPPxER-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="IHZGzU6U-dfC5qLPPxER-5" target="IHZGzU6U-dfC5qLPPxER-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IHZGzU6U-dfC5qLPPxER-5" value=".. Application Form&lt;div&gt;&amp;nbsp;(right half)&lt;/div&gt;" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="300" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="IHZGzU6U-dfC5qLPPxER-13" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="IHZGzU6U-dfC5qLPPxER-6" target="IHZGzU6U-dfC5qLPPxER-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IHZGzU6U-dfC5qLPPxER-6" value="Free Movie ..&lt;br&gt;(left half)" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="300" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="IHZGzU6U-dfC5qLPPxER-11" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="IHZGzU6U-dfC5qLPPxER-7" target="IHZGzU6U-dfC5qLPPxER-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IHZGzU6U-dfC5qLPPxER-7" value="&lt;b&gt;Whole Foods&lt;/b&gt;&lt;div&gt;Whoever visits can get a free movie&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="550" y="310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IHZGzU6U-dfC5qLPPxER-8" value="- Alice print a free movie application at home&lt;div&gt;- anyone can make one&lt;/div&gt;&lt;div&gt;- Alice tear it in half. Only the left half matches the right half.&lt;/div&gt;&lt;div&gt;- Alice keep the left half to herself.&lt;/div&gt;&lt;div&gt;- Alice send the right half to wholefood&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="100" y="395" width="340" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="IHZGzU6U-dfC5qLPPxER-10" value="- Whole food take the right half&lt;div&gt;- Whole food stamp it and send to movie theater&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="510" y="380" width="280" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="IHZGzU6U-dfC5qLPPxER-12" value="Movie theater verify whole food&#39;s stamp&lt;div&gt;- need to know the stamp before hand (cert enrollment)&lt;/div&gt;&lt;div&gt;- need to know it is whole food and not trader joe&#39;s stamp&lt;/div&gt;&lt;div&gt;- in mongodb, store during cert enrollment flow&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="485" y="15" width="330" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="IHZGzU6U-dfC5qLPPxER-14" value="- Alice send left half to movie theater, with her AMC ID&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;- The Movie Theater sees that the left half matches the right half,&amp;nbsp;&lt;/div&gt;&lt;div&gt;and right half is eligible for free ticket&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;- Alice&#39;s AMC account get a free ticket&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="45" y="140" width="370" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="IHZGzU6U-dfC5qLPPxER-15" value="1" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="415" y="300" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IHZGzU6U-dfC5qLPPxER-16" value="2" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="138" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IHZGzU6U-dfC5qLPPxER-17" value="3" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="110" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IHZGzU6U-dfC5qLPPxER-18" value="&lt;b&gt;Trader Joe&lt;/b&gt;&lt;div&gt;Whoever visits can get a free movie&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="680" y="310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IHZGzU6U-dfC5qLPPxER-19" value="Alice pays an untrusted&amp;nbsp;&lt;div&gt;stranger to deliver the right half&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="360" y="260" width="190" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="IHZGzU6U-dfC5qLPPxER-20" value="Send right half via USPS,&lt;div&gt;&amp;nbsp;assumed to be secure&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="540" y="173" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="IHZGzU6U-dfC5qLPPxER-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;dashed=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1" source="IHZGzU6U-dfC5qLPPxER-24" target="IHZGzU6U-dfC5qLPPxER-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="210" y="500" />
+              <mxPoint x="140" y="500" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IHZGzU6U-dfC5qLPPxER-24" value="Free Movie Application Form&lt;br&gt;(not torn)" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="550" width="280" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="IHZGzU6U-dfC5qLPPxER-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.42;entryY=1.009;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1" source="IHZGzU6U-dfC5qLPPxER-24" target="IHZGzU6U-dfC5qLPPxER-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="210" y="500" />
+              <mxPoint x="283" y="500" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IHZGzU6U-dfC5qLPPxER-28" value="tear into two pieces" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="205" y="510" width="130" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
