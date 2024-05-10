@@ -1,0 +1,87 @@
+<mxfile host="app.diagrams.net" modified="2024-05-10T21:43:08.020Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="mfljDFEUn89ePAyjNzhW" version="24.1.0" type="github">
+  <diagram name="Page-1" id="IXOwa5u7tvY8ER5TmXED">
+    <mxGraphModel dx="1242" dy="785" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2EK0B8S5NaB3dkxQZvBO-2" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="140" y="180" width="440" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="2EK0B8S5NaB3dkxQZvBO-3" value="VLDAP E2E Healthcheck Probe" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#82b366;fillColor=#d5e8d4;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="260" y="130" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2EK0B8S5NaB3dkxQZvBO-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2EK0B8S5NaB3dkxQZvBO-4" target="2EK0B8S5NaB3dkxQZvBO-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2EK0B8S5NaB3dkxQZvBO-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="2EK0B8S5NaB3dkxQZvBO-4" target="2EK0B8S5NaB3dkxQZvBO-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2EK0B8S5NaB3dkxQZvBO-4" value="Datadog Agent Process" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2EK0B8S5NaB3dkxQZvBO-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2EK0B8S5NaB3dkxQZvBO-5" target="2EK0B8S5NaB3dkxQZvBO-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2EK0B8S5NaB3dkxQZvBO-5" value="vldap_check.py" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2EK0B8S5NaB3dkxQZvBO-6" value="ldap://ldap.rippling.com" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="790" y="400" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2EK0B8S5NaB3dkxQZvBO-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2EK0B8S5NaB3dkxQZvBO-9" target="2EK0B8S5NaB3dkxQZvBO-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2EK0B8S5NaB3dkxQZvBO-9" value="datadog.com" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="610" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2EK0B8S5NaB3dkxQZvBO-11" value="Service Check Status&lt;br&gt;ldapsearch command time metrics" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="370" y="203" width="210" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="2EK0B8S5NaB3dkxQZvBO-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="2EK0B8S5NaB3dkxQZvBO-12" target="2EK0B8S5NaB3dkxQZvBO-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2EK0B8S5NaB3dkxQZvBO-12" value="&lt;div&gt;run&lt;font face=&quot;Courier New&quot;&gt; /usr/bin/ldapsearch&lt;/font&gt; using&lt;br&gt;demo company credential&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="205" y="460" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2EK0B8S5NaB3dkxQZvBO-17" value="every 15 seconds" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="310" y="290" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2EK0B8S5NaB3dkxQZvBO-18" value="Docker/Pod" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="185" y="180" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2EK0B8S5NaB3dkxQZvBO-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2EK0B8S5NaB3dkxQZvBO-19" target="2EK0B8S5NaB3dkxQZvBO-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2EK0B8S5NaB3dkxQZvBO-19" value="Datadog Monitor" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="760" y="210" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2EK0B8S5NaB3dkxQZvBO-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;endArrow=none;endFill=0;" edge="1" parent="1" source="2EK0B8S5NaB3dkxQZvBO-20">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="890" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2EK0B8S5NaB3dkxQZvBO-20" value="Opsgenie" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="920" y="165" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2EK0B8S5NaB3dkxQZvBO-21" value="Slack Chanel&lt;br&gt;#identity-alerts" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="920" y="243" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2EK0B8S5NaB3dkxQZvBO-25" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/social-media-2285/512/1_Slack_colored_svg-128.png" vertex="1" parent="1">
+          <mxGeometry x="880" y="290" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2EK0B8S5NaB3dkxQZvBO-26" value="" style="aspect=fixed;sketch=0;html=1;dashed=0;whitespace=wrap;fillColor=#2875E2;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];shape=mxgraph.kubernetes.icon2;prIcon=pod" vertex="1" parent="1">
+          <mxGeometry x="185" y="203" width="28.13" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="2EK0B8S5NaB3dkxQZvBO-27" value="" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="650" y="410" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="2EK0B8S5NaB3dkxQZvBO-28" value="Network Stack&lt;br&gt;public ip, vpc, lb, etc" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="620" y="445" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="2EK0B8S5NaB3dkxQZvBO-29" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;Environment &lt;br&gt;Variable&lt;br&gt;DD_API_KEY&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="145" y="253" width="100" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
